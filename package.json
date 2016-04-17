@@ -15,7 +15,8 @@
     "Martin Geisler <martin@geisler.net>",
     "Seth Pollack <spollack@qualitybath.com>",
     "tcrevoisier <thomas.crevoisier.sfeir@ext.pmu.com>",
-    "yeahoffline <frank.gasser@gmail.com>"
+    "yeahoffline <frank.gasser@gmail.com>",
+    "Jason Wodicka <jason@wodicka.net>"
   ],
   "repository": {
     "type": "git",
@@ -39,8 +40,8 @@
     "test": "grunt test"
   },
   "dependencies": {
+    "babel-istanbul": "0.7.0",
     "chalk": "1.1.1",
-    "istanbul": "0.4.2",
     "nue": "0.7.1"
   },
   "peerDependencies": {

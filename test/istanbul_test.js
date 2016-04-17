@@ -9,7 +9,7 @@ var as = require('nue').as;
 var _h = require('./testHelpers');
 var throwOrDone = _h.throwOrDone;
 var output = _h.fixtures('output');
-var istanbul = require('istanbul');
+var istanbul = require('babel-istanbul');
 var helper = require('../tasks/helpers').init(grunt);
 var isparta = require('isparta');
 

@@ -9,7 +9,7 @@ exports.init = function(grunt) {
   var flow = require('nue').flow;
   var as = require('nue').as;
 
-  var istanbul = require('istanbul');
+  var istanbul = require('babel-istanbul');
 
   function flowEnd(err, done) {
     if (err) {
